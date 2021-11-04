@@ -1,0 +1,4 @@
+export const CREATE_CHANNEL = 'CREATE_CHANNEL';
+export const DELETE_CHANNEL = 'DELETE_CHANNEL';
+export const ADD_MESSAGE = 'ADD_MESSAGE';
+export const CLEAR_MESSAGES = 'CLEAR_MESSAGES';

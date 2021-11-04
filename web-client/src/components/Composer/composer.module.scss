@@ -1,0 +1,46 @@
+.composer {
+    display: flex;
+    margin: 0 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    input {
+        display: flex;
+        flex: 1;
+        background: #40444b;
+        border: 0px;
+        border-radius: 3px;
+        color: #FFF;
+        padding: 15px;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .typing {
+        padding: 5px;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 10px;
+
+    .send {
+        display: flex;
+        color: #fff;
+        cursor: pointer;
+        background: var(--blue);
+        border-radius: 5px;
+        padding: 15px 20px;
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}
